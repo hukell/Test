@@ -32,7 +32,6 @@ public class GuideActivity extends FragmentActivity {
         adapter = new GuideFragmentAdapter(getSupportFragmentManager(), getApplicationContext());
         viewPager.setAdapter(adapter);
         indicator.setViewPager(viewPager);
-
     }
 
 

@@ -11,16 +11,13 @@ import com.mb.test.fragment.GuideFragment;
 
 public class GuideFragmentAdapter extends FragmentPagerAdapter {
 
-
     private Context context;
 
     int path[] = new int[]{R.mipmap.guider_one, R.mipmap.guider_two, R.mipmap.guider_three,R.mipmap.guider_three};
 
-
     public GuideFragmentAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
-
     }
 
     @Override
