@@ -1,5 +1,6 @@
 package com.mb.test.net;
 
+import com.mb.test.utils.SharePreHelper;
 import com.mb.test.utils.TextUtil;
 
 import java.util.concurrent.TimeUnit;
@@ -46,12 +47,10 @@ public class Api {
         return mApiService;
     }
 
-
     public static String getServerUrl() {
-        String url = "http://apicloud.mob.com/v1";
+        String url = "";
         if (!TextUtil.isValidate(url)) {
-            url ="http://apicloud.mob.com/v1";
-
+            url = SharePreHelper.getIns().getPath();
         } else {
             if (!url.endsWith("/")) {
                 url += "/";

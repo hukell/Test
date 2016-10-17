@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
+    <color name="colorBgColor">#F1EEEC</color>
 
     <!--小圆点 20%*黑色-->
     <color name="black20">#33000000</color>

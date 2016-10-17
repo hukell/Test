@@ -34,5 +34,4 @@ public class GuideActivity extends FragmentActivity {
         indicator.setViewPager(viewPager);
     }
 
-
 }

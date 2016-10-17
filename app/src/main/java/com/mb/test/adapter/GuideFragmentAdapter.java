@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-
 import com.mb.test.R;
 import com.mb.test.fragment.GuideFragment;
 
@@ -22,7 +21,6 @@ public class GuideFragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-
 
         GuideFragment bannerFragment = new GuideFragment();
         Bundle bundle = new Bundle();
@@ -44,7 +42,6 @@ public class GuideFragmentAdapter extends FragmentPagerAdapter {
         }
         return path.length;
     }
-
 
 }
 
