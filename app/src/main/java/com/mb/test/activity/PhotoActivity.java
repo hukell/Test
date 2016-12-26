@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.mb.test.R;
 import com.mb.test.utils.ImageLoader;
-import com.mb.test.utils.rxjava.RxBus;
+import com.mb.test.utils.RxBus;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

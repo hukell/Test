@@ -28,7 +28,7 @@ public class BaseSubscriber<T> extends Subscriber<T> {
     public void onStart() {
         //请求开始之前，检查是否有网络。无网络直接抛出异常
         if (!NetStateUtils.isConnected(mContext)) {
-            this.onError(new ApiException(ApiErrorCode.ERROR_NO_INTERNET,"network interrupt"));
+            this.onError(new ApiException(ApiErrorCode.ERROR_NO_INTERNET,"无网络连接"));
         }
        else {
             if (mDialog==null){

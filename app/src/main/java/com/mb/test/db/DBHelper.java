@@ -3,7 +3,7 @@ package com.mb.test.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import com.mb.test.utils.File;
+
 /**
  * Created by Administrator on 2015/12/30 0030.
  */

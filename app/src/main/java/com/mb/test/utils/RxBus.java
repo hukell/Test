@@ -1,4 +1,4 @@
-package com.mb.test.utils.rxjava;
+package com.mb.test.utils;
 
 import rx.Observable;
 import rx.subjects.PublishSubject;

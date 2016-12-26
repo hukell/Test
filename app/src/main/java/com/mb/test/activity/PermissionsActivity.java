@@ -14,7 +14,6 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 
 import com.mb.test.R;
-import com.mb.test.utils.PermissionsChecker;
 
 public class PermissionsActivity extends AppCompatActivity {
 

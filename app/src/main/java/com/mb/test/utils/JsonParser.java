@@ -11,7 +11,7 @@ public class JsonParser {
 
 	@SuppressWarnings("hiding")
 	public static <T> T deserializeByJson(String data, Type type) {
-		if (TextUtil.isValidate(data)) {
+		if (StringUtils.isSpace(data)) {
 			return gson.fromJson(data, type);
 		}
 		return null;
@@ -26,7 +26,7 @@ public class JsonParser {
      */
 	@SuppressWarnings("hiding")
 	public static <T> T deserializeByJson(String data, Class<T> clz) {
-		if (TextUtil.isValidate(data)) {
+		if ((StringUtils.isSpace(data))){
 			return gson.fromJson(data, clz);
 		}
 		return null;
