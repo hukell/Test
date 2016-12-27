@@ -47,14 +47,9 @@ public class Api {
     }
 
     public static String getServerUrl() {
-        String url = "";
-        if (!TextUtil.isValidate(url)) {
-            url = SharePreHelper.getIns().getPath();
-        } else {
-            if (!url.endsWith("/")) {
-                url += "/";
-            }
-        }
+
+           String url = SharePreHelper.getIns().getPath();
+
         return url;
     }
 
